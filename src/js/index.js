@@ -46,14 +46,21 @@ console.log(myNewObject);
 
 
 
-// const entryInput = document.querySelector('form__item');
-// entryInput.value=result;
+const entryInput = document.querySelector('.entry--js');
+const button = document.querySelector('.save--js');
+const button2 = document.querySelector('.load--js');
 
 
 
-// const button = document.querySelector('save');
-// button.addEventListener('click',()=>{
-//     localStorage.setItem('entry',entryInput.value);
-// })
 
-// console.log(entryInput);
+button.addEventListener('click',(e)=>{
+    e.preventDefault();
+    localStorage.setItem('entry',entryInput.value);
+});
+
+button2.addEventListener('click',(e)=>{
+    e.preventDefault();
+    entryInput.value=localStorage.getItem('entry');
+});
+
+//console.log(entryInput);
