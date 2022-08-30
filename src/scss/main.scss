@@ -4,10 +4,50 @@
 @import "modules/hello.scss";
 
 body {
-  background: $wtf;
-  color: #fff;
+  background: #f1faee;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+}
+
+.header {
+  h1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 64px;
+    font-family: "Open Sans";
+    color: #e63946;
+    border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+.paragraph {
+
+  width: 627px;
+  height: 84px;
+  left: 294px;
+  top: 339px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #1d3557;
+}
+
+.form {
+
+  width: 847px;
+  height: 358px;
+  top: 430px;
+  left: 294px;
 }
