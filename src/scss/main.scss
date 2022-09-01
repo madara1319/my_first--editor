@@ -12,42 +12,164 @@ body {
 }
 
 .header {
-  h1 {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 44px;
-    line-height: 64px;
-    font-family: "Open Sans";
-    color: #e63946;
-    border: 1px solid #000000;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 64px;
+  font-family: "Open Sans";
+  color: #e63946;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .paragraph {
-
+  display: flex;
   width: 627px;
   height: 84px;
   left: 294px;
   top: 339px;
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 32px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   color: #1d3557;
 }
 
 .form {
-
-  width: 847px;
+  display: flex;
+  align-items: center;
   height: 358px;
-  top: 430px;
+  width: 847px;
   left: 294px;
+  top: 430px;
+}
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 10px;
+}
+.button {
+  color: #ffff;
+  padding: 0px;
+  width: 84px;
+  height: 40px;
+  left: 940px;
+  top: 805px;
+  background: #457b9d;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* Component 2 */
+.component {
+  position: absolute;
+  width: 1392.08px;
+  height: 1625.67px;
+  left: -662px;
+  top: 252px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 100px;
+}
+/* Rectangle 3 */
+.rectangle1 {
+  position: absolute;
+  left: 0%;
+  right: 50.18%;
+  top: 23.24%;
+  bottom: -14.77%;
+
+  background: #e63946;
+  transform: rotate(-33deg);
+}
+/* Rectangle 6 */
+.rectangle2 {
+  position: absolute;
+  left: 21.19%;
+  right: 63.21%;
+  top: 8.26%;
+  bottom: 0.21%;
+
+  background: #1d3557;
+  transform: rotate(-33deg);
+}
+
+/* Rectangle 5 */
+.rectangle3 {
+  position: absolute;
+  left: 31.01%;
+  right: 62.52%;
+  top: 11.75%;
+  bottom: -3.28%;
+
+  background: #457b9d;
+  transform: rotate(-33deg);
+}
+/* Rectangle 4 */
+.rectangle4 {
+  position: absolute;
+  left: 27.35%;
+  right: 66.5%;
+  top: 3.17%;
+  bottom: 5.3%;
+
+  background: #a8dadc;
+  transform: rotate(-33deg);
+}
+/* Component 3 */
+.component2 {
+  position: absolute;
+  width: 1967px;
+  height: 1024px;
+  left: 899px;
+  top: 2156px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 100px;
+  transform: rotate(-90deg);
+}
+/* Component 3 */
+
+/* Rectangle 3 */
+.rectangle5 {
+  position: absolute;
+  left: 12.1%;
+  right: 44.41%;
+  top: 192.09%;
+  bottom: -227.73%;
+
+  background: #e63946;
+  transform: matrix(-0.44, -1.52, 0.45, -0.65, 0, 0);
+}
+
+/* Rectangle 6 */
+.rectangle6 {
+  position: absolute;
+  left: 4.3%;
+  right: 82.09%;
+  top: 151.38%;
+  bottom: -187.02%;
+
+  background: #1d3557;
+  transform: matrix(-0.44, -1.52, 0.45, -0.65, 0, 0);
+}
+
+/* Rectangle 5 */
+.rectangle7 {
+  position: absolute;
+  left: 6.12%;
+  right: 88.24%;
+  top: 132.51%;
+  bottom: -168.15%;
+
+  background: #457b9d;
+  transform: matrix(-0.44, -1.52, 0.45, -0.65, 0, 0);
+}
+/* Rectangle 4 */
+.rectangle8{
+position: absolute;
+left: 1.65%;
+right: 92.98%;
+top: 139.55%;
+bottom: -175.19%;
+
+background: #a8dadc;
+transform: matrix(-0.44, -1.52, 0.45, -0.65, 0, 0);
 }
