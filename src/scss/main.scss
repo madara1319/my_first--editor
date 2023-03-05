@@ -3,29 +3,25 @@
 @import "_variables";
 @import "modules/hello.scss";
 
-main {
+body {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background: #f1faee;
+  min-width: 100%;
 }
 
-body {
-  background: #f1faee;
+
+
+.header {
+  padding: 16px 0;
+  margin-top: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-}
-.header {
-  display: flex;
-  align-items: center;
-  text-align: center;
   font-family: "Open Sans";
   font-style: normal;
-  font-weight: 600;
-  font-size: 44px;
-  line-height: 64px;
   font-family: "Open Sans";
   color: #e63946;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -34,15 +30,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  &--entry
-  {
+  &--entry {
     min-width: 50vw;
     min-height: 50vw;
   }
 }
 .buttons {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
   padding: 10px;
 }
